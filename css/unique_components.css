@@ -180,6 +180,11 @@ button {
   border-radius: 15px;
   order: 1;
 }
+.ingredients-item-mc:hover, .ingredients-item-mc:focus {
+  border: none;
+  background-color: transparent;
+}
+
 @media only screen and (min-width: 768px) {
   .ingredients-item-mc {
     width: 336px;
@@ -348,6 +353,11 @@ margin-top: 14px;
   border-radius: 15px;
   order: 2;
 }
+
+.ingredients-item-m:hover, .ingredients-item-m:focus {
+  border: none;
+  background-color: transparent;
+}
 @media only screen and (min-width: 768px) {
   .ingredients-item-m {
     width: 336px;
@@ -401,6 +411,7 @@ margin-top: 14px;
   height: 100%;  */
   transform: translateY(100%);
   transition: transform 450ms ease-in-out;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -471,6 +482,10 @@ margin-top: 14px;
   background: #1e1823;
   border-radius: 15px;
   order: 3;
+}
+.ingredients-item-n:hover, .ingredients-item-n:focus {
+  border: none;
+  background-color: transparent;
 }
 @media only screen and (min-width: 768px) {
   .ingredients-item-n {
@@ -584,6 +599,11 @@ border-radius: 15px;
   border: 1px solid #fd9222;
   border-radius: 15px;
   order: 4;
+}
+
+.ingredients-item-s:hover, .ingredients-item-s:focus {
+  border: none;
+  background-color: transparent;
 }
 @media only screen and (min-width: 768px) {
   .ingredients-item-s {
